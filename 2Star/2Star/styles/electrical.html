@@ -1,0 +1,152 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Electrical Works</title>
+
+    <style>
+      #backBtn {
+        display: block;
+        text-align: center;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container gallery-container">
+      <h1>Electrical Works History</h1>
+
+      <a id="backBtn" href="/index.html">BACK TO HOME</a>
+
+      <div class="tz-gallery">
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <a class="lightbox" href="/images/elec-images/1.png">
+              <img src="/images/elec-images/1.png" alt="Bridge" />
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="/images/elec-images/2.png">
+              <img src="/images/elec-images/2.png" alt="Bridge" />
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="/images/elec-images/3.png">
+              <img src="/images/elec-images/3.png" alt="Bridge" />
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <a class="lightbox" href="/images/elec-images/4.png">
+              <img src="/images/elec-images/4.png" alt="Bridge" />
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="/images/elec-images/5.png">
+              <img src="/images/elec-images/5.png" alt="Bridge" />
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="/images/elec-images/6.png">
+              <img src="/images/elec-images/6.png" alt="Bridge" />
+            </a>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="/images/elec-images/7.png">
+              <img src="/images/elec-images/7.png" alt="Bridge" />
+            </a>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="/images/elec-images/8.png">
+              <img src="/images/elec-images/8.png" alt="Bridge" />
+            </a>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="/images/elec-images/9.png">
+              <img src="/images/elec-images/9.png" alt="Bridge" />
+            </a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+      baguetteBox.run(".tz-gallery");
+    </script>
+    <style>body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+  }
+  
+  .gallery-title {
+      font-size: 2rem;
+      color: #d02727;
+      font-weight: bold;
+      margin-bottom: 10px;
+  }
+  
+  .back-home {
+      display: block;
+      margin-bottom: 20px;
+      color: lightblue;
+      text-decoration: none;
+  }
+  
+  .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+      padding: 10px;
+      max-width: 1200px;
+      margin: auto;
+  }
+  
+  .gallery img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(255, 0, 0, 0.2);
+      transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery img:hover {
+      transform: scale(1.05);
+  }
+  </style>
+  </body>
+

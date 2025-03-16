@@ -1,0 +1,98 @@
+body {
+  min-height: 100vh;
+  font: normal 16px sans-serif;
+  padding: 40px 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #000000, #4b0000); /* Dark gradient */
+  color: white; /* Text color for better readability */
+}
+
+.container.gallery-container {
+  background: linear-gradient(to bottom, #0d0d0d, #1a1a1a); /* Darker background */
+  color: white; /* Make text visible */
+  min-height: 100vh;
+  padding: 30px 50px;
+  border-radius: 10px; /* Optional: Adds a soft rounded border effect */
+}
+
+.gallery-container h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: bold;
+  color: #831e1e; /* Yellow highlight similar to buttons */
+}
+
+.gallery-container p.page-description {
+  text-align: center;
+  margin: 25px auto;
+  font-size: 18px;
+  color: #bbb; /* Light gray for readability */
+}
+
+.tz-gallery {
+  padding: 40px;
+}
+
+/* Override Bootstrap column paddings */
+.tz-gallery .row > div {
+  padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+  width: 100%;
+  border-radius: 0;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tz-gallery .lightbox img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.tz-gallery .lightbox:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -13px;
+  opacity: 0;
+  color: #fff;
+  font-size: 26px;
+  font-family: "Glyphicons Halflings";
+  content: "\e003";
+  pointer-events: none;
+  z-index: 9000;
+  transition: 0.4s;
+}
+
+.tz-gallery .lightbox:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(255, 7, 7, 0.3); /* Yellow tint */
+  content: "";
+  transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+  opacity: 1;
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+
+  .container.gallery-container {
+    padding: 20px;
+  }
+}

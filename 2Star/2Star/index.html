@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AK construction Engineering Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body class="font-sans">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto px-4 fixed-top">
+      <div class="container-fluid d-flex justify-content-between align-items-center mx-auto px-4">
+        <!-- Logo and Brand -->
+        <a class="navbar-brand" href="#">
+          <img src="images/twoStarlogo (2).png" alt="" width="118" class="d-inline-block align-text-top">
+        </a>
+        <!-- Toggler Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Items -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link text-dark fw-semibold" href="#home">Home</a>
+            <a class="nav-link text-dark fw-semibold" href="#services">Services</a>
+            <a class="nav-link text-dark fw-semibold" href="#projects">Projects</a>
+            <a class="nav-link text-dark fw-semibold" href="#clients">Clients</a>
+            <a class="nav-link text-dark fw-semibold" href="#about">About</a>
+            <a class="nav-link text-dark fw-semibold" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+	<style>
+	.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video fills the screen */
+}
+
+	</style>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section flex items-center justify-center relative">
+			  <!-- YouTube Video as Background -->
+        <video
+        autoplay
+        loop
+        muted
+        playsinline
+        class="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="images/home-bg.mp4" type="video/mp4" />
+        <!-- Video ka link Change karna Jahan video para hai-->
+        Your browser does not support the video tag.
+      </video>
+
+
+			  <!-- Content -->
+			  <div class="container mx-auto px-4 text-center text-white relative z-10">
+				<h1 class="mb-6 text-6xl font-bold"> Excellence in Engineering Since 2018 </h1>
+				<p class="mb-8 text-2xl"> Mechanical Installation | Thermal Insulation | HVAC | Industrial Maintenance </p>
+				<div class="flex justify-center space-x-4">
+				  <a href="#contact" class="rounded-lg bg-yellow-500 px-8 py-4 font-semibold text-gray-900 hover:bg-yellow-400">
+					<button class="quote-btn">Get a Quote</button>
+				  </a>
+				  <a href="#services" class="rounded-lg border-2 border-yellow-500 px-8 py-4 font-semibold hover:bg-yellow-500 hover:text-gray-900">
+					<button class="services-btn">Our Services</button>
+				  </a>
+				</div>
+			  </div>
+			</section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-white py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-12 text-center"> About AK construction Engineering </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div>
+            <h3 class="text-2xl font-bold mb-4">Welcome</h3>
+            <p class="text-gray-700 mb-6"> Welcome to <strong>AK Construction</strong> engineering services and company, where innovation meets excellence. I'm <strong>Arbaz Khan</strong>, <strong>Director</strong> of the company, and I'm thrilled to introduce you to our world of <strong>civil</strong> & <strong>mechanical</strong> & <strong>Electrical</strong> services. <strong>AK Construction</strong> engineering services and company, we're driven by a passion for delivering exceptional quality, unparalleled customer service, and innovative solutions that exceed expectations. Our team of experts is dedicated to pushing boundaries, embracing new challenges, and fostering a culture of continuous improvement. As we continue to grow and evolve, our commitment to our core values remains unwavering. We believe in building long-lasting relationships, empowering our people, and contributing to the betterment of our community. I invite you to explore our website, learn more about our services, and discover how we can help you achieve your goals. <strong>Thank you for considering as your trusted partner.</strong> Together, let's shape a brighter future. Sincerely, Arbaz Khan Director, <strong>AK Construction</strong> engineering services & company </p>
+            <h3 class="text-2xl font-bold mb-4">Our Story</h3>
+            <p class="text-gray-700 mb-6"> Since 2018, <strong>AK.constructions,</strong> Engineering Services has been providing comprehensive engineering solutions across <strong>Sindh.</strong> Our expertise spans mechanical installation, thermal insulation, HVAC, and industrial maintenance. </p>
+            <p class="text-gray-700"> Led by CEO <strong>AK Arbaz khan Yousafzai</strong> we've established ourselves as a trusted partner in the engineering and construction sector, known for quality, efficiency, and reliability. </p>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold mb-4">Our Mission</h3>
+            <p class="text-gray-700 mb-6"> To provide our shareholders and customers with value through engineering services, procurement, construction, operation and management of infrastructure, industrial and power projects. </p>
+            <div class="bg-gray-100 p-6 rounded-lg">
+              <h4 class="font-bold mb-2">HSE Policy Highlights:</h4>
+              <ul class="list-disc pl-6 text-gray-700">
+                <li> Prioritizing health and safety of employees and stakeholders </li>
+                <li>Continuous improvement in environmental performance</li>
+                <li>Transparent HSE performance measurement</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="bg-gray-100 py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-12 text-center">Our Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Example: Civil Works Card -->
+          <a href="pages/civil.html">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover-effect card_hover hover-popup">
+              <img src="images/civil_works (2).jpg" alt="Civil Works" class="w-full h-48 object-cover image-fade" />
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-4">Civil Works</h3>
+                <ul class="space-y-2">
+                  <li>
+                    <i class="fas fa-check text-yellow-500 mr-2"></i>Pre-construction Surveys
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-yellow-500 mr-2"></i>Building Structure Works
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-yellow-500 mr-2"></i>Waterproofing & Insulation
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-yellow-500 mr-2"></i>Pre-Engineered Structure
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+          <!-- Civil Works -->
+          <!-- Mechanical Works Card -->
+          <a href="pages/mechanical.html">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover-effect card_hover hover-popup">
+              <img src="images/mechanical works.jpg" alt="Mechanical Works" class="w-full h-48 object-cover image-fade" />
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-4">Mechanical Works</h3>
+                <ul class="space-y-2">
+                  <li>
+                    <i class="fas fa-check text-yellow-500 mr-2"></i>Fabrication & Structuring
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-yellow-500 mr-2"></i>Piping & Installation
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-yellow-500 mr-2"></i>Sand Blasting & Painting
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-yellow-500 mr-2"></i>Oil Tank Manufacturing
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+          <!-- Electrical Works Card -->
+          <a href="pages/electrical.html">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover-effect card_hover hover-popup">
+              <img src="images/electrical works.jpg" alt="Electrical Works" class="w-full h-48 object-cover image-fade" />
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-4">Electrical Works</h3>
+                <ul class="space-y-2">
+                  <li>
+                    <i class="fas fa-check text-yellow-500 mr-2"></i>Solar System Solutions
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-yellow-500 mr-2"></i>Electrical Panel Installation
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-yellow-500 mr-2"></i>CCTV System Installation
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-yellow-500 mr-2"></i>Transformer Installation
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-100 py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-12 text-center">Our Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- project -->
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden hover-effect hover-popup hover-popup">
+            <img src="images/project2.jpg" alt="project 2S" class="w-full h-48 object-cover image-fade" />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-4">Project 1</h3> Fair face block masonry work at Getz pharma
+            </div>
+          </div>
+          <!--project-->
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden hover-effect hover-popup">
+            <img src="images/project3.jpg" alt="Mechanical Works" class="w-full h-48 object-cover image-fade" />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-4">Project 2</h3> Ground leveling work at Dawood mills ltd.
+            </div>
+          </div>
+          <!-- project -->
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden hover-effect hover-popup">
+            <img src="images/project1.jpg" alt="project 1" class="w-full h-48 object-cover image-fade" />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-4">Project 3</h3> Boundry wall work at Gull ahmed textile mills ltd </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Clients Section -->
+    <!-- Clients Section -->
+    <section id="clients" class="bg-white py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-12 text-center">Our Valued Clients</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <!-- Client 1 -->
+          <!-- Client 1 with Logo -->
+          <a target="_blank" href="https://drive.google.com/file/d/1dcSziffUtofTLf-i81GRDKSpEntEYy7l/view?usp=drive_link">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover-effect hover-popup">
+              <img src="images/hilal_food_logo.jpg" alt="Hilal Food" class="w-full h-32 object-contain p-4" />
+              <div class="p-6 text-center">
+                <h3 class="text-2xl font-bold mb-4">Hilal Food</h3>
+              </div>
+            </div>
+          </a>
+          <!-- Client 2 -->
+          <a href="https://drive.google.com/file/d/1gMsHcltzobS6E-2DKdeS0dHke95lJbYM/view?usp=drive_link" target="_blank">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover-effect hover-popup">
+              <img src="images/unity_food.jpg" alt="Hilal Food" class="w-full h-32 object-contain p-4" />
+              <div class="p-6 text-center">
+                <h3 class="text-2xl font-bold mb-4">Unity Foods Limited</h3>
+              </div>
+            </div>
+          </a>
+          <!-- Client 3 -->
+          <a href="https://drive.google.com/file/d/1tL1gLGTQC2Asl8QaNMy99fHj3HhhYYqF/view?usp=drive_link" target="_blank">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover-effect hover-popup">
+              <img src="images/Abbott_Laboratories_logo.jpg" alt="Hilal Food" class="w-full h-32 object-contain p-4" />
+              <div class="p-6 text-center">
+                <h3 class="text-2xl font-bold mb-4">Abbott Laboratories</h3>
+              </div>
+            </div>
+          </a>
+          <!-- Client 4 -->
+          <a href="https://drive.google.com/file/d/1yzIbDgSZ3DGtIM8jdaY-3q-gh1CNOjSu/view?usp=drive_link" target="_blank">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover-effect hover-popup">
+              <img src="images/Lucky_Textile_logo.jpg" alt="Hilal Food" class="w-full h-32 object-contain p-4" />
+              <div class="p-6 text-center">
+                <h3 class="text-2xl font-bold mb-4">Lucky Textile</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <!-- Example: Get a Quote Button -->
+    <section id="contact" class="bg-gray-100 py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-12 text-center">Contact Us</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-white p-8 rounded-xl shadow-lg">
+            <h3 class="text-2xl font-bold mb-6">Send Us a Message</h3>
+            <form class="space-y-4">
+              <div>
+                <label class="block text-gray-700 mb-2">Name</label>
+                <input type="text" class="w-full p-3 border rounded-lg" placeholder="Your name" />
+              </div>
+              <div>
+                <label class="block text-gray-700 mb-2">Email</label>
+                <input type="email" class="w-full p-3 border rounded-lg" placeholder="Your email" />
+              </div>
+              <div>
+                <label class="block text-gray-700 mb-2">Message</label>
+                <textarea class="w-full p-3 border rounded-lg h-32" placeholder="Your message"></textarea>
+              </div>
+              <button type="submit" class="bg-yellow-500 text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-400"> Send Message </button>
+            </form>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow-lg">
+            <h3 class="text-2xl font-bold mb-6">Our Locations</h3>
+            <div class="space-y-6">
+              <div>
+                <p>
+                  <strong>Phone:</strong> +92-3423608886 <br />
+                  <strong>Email:</strong> arbazkhanyousafzai9@gmail.com
+                <div class="our-locations">
+                  <h2>Our Locations</h2>
+                  <h3>Head Office</h3>
+                  <p>Office Main mehran highway gul ahmed chowrangi landhi Karachi Pakistan</p>
+                  <p>
+                    <strong>Phone:</strong>
+                    <a href="tel:+923423608886">+92-3423608886</a>
+                  </p>
+                  <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:arbazkhanyousafzai9@gmail.com">arbazkhanyousafzai9@gmail.com</a>
+                  </p>
+                  <h3>Workshop</h3>
+                  <p>R633 green Park City Quidabad distt malir Karachi Pakistan</p>
+                </div>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+      <div class="bg-white w-full max-w-md m-auto rounded-xl p-8">
+        <div class="flex justify-between items-center mb-6">
+          <h3 class="text-2xl font-bold">Login</h3>
+          <button onclick="hideModal('loginModal')" class="text-gray-500 hover:text-gray-700">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <form class="space-y-4">
+          <div>
+            <label class="block text-gray-700 mb-2">Email</label>
+            <input type="email" class="w-full p-3 border rounded-lg" placeholder="Enter your email" />
+          </div>
+          <div>
+            <label class="block text-gray-700 mb-2">Password</label>
+            <input type="password" class="w-full p-3 border rounded-lg" placeholder="Enter your password" />
+          </div>
+          <button type="submit" class="w-full bg-yellow-500 text-gray-900 py-3 rounded-lg font-semibold hover:bg-yellow-400"> Login </button>
+          <!-- Sign Up Modal -->
+          <div id="signupModal" class="modal">
+            <div class="bg-white w-full max-w-md m-auto rounded-xl p-8">
+              <div class="flex justify-between items-center mb-6">
+                <h3 class="text-2xl font-bold">Sign Up</h3>
+                <button onclick="hideModal('signupModal')" class="text-gray-500 hover:text-gray-700">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+              <form class="space-y-4">
+                <div>
+                  <label class="block text-gray-700 mb-2">Full Name</label>
+                  <input type="text" class="w-full p-3 border rounded-lg" placeholder="Enter your full name" />
+                </div>
+                <div>
+                  <label class="block text-gray-700 mb-2">Email</label>
+                  <input type="email" class="w-full p-3 border rounded-lg" placeholder="Enter your email" />
+                </div>
+                <div>
+                  <label class="block text-gray-700 mb-2">Password</label>
+                  <input type="password" class="w-full p-3 border rounded-lg" placeholder="Enter your password" />
+                </div>
+                <div>
+                  <label class="block text-gray-700 mb-2">Confirm Password</label>
+                  <input type="password" class="w-full p-3 border rounded-lg" placeholder="Confirm your password" />
+                </div>
+                <button type="submit" class="w-full bg-yellow-500 text-gray-900 py-3 rounded-lg font-semibold hover:bg-yellow-400"> Sign Up </button>
+                <p class="text-center text-gray-600"> Already have an account? <a href="#" class="text-yellow-500 hover:text-yellow-600" onclick="showModal('loginModal'); hideModal('signupModal')">Login</a>
+                </p>
+              </form>
+            </div>
+          </div>
+          <p class="text-center text-gray-600"> Don't have an account? <a href="#" class="text-yellow-500 hover:text-yellow-600" onclick="showModal('signupModal'); hideModal('loginModal')">Sign up</a>
+          </p>
+        </form>
+      </div>
+    </div>
+    <!-- Why Choose Us Section -->
+    <section class="bg-gray-100 py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-12 text-center">Why Choose AK construction Engineering?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Expertise -->
+          <div class="bg-white rounded-xl shadow-lg p-6 text-center hover-popup">
+            <i class="fas fa-hard-hat text-yellow-500 text-4xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Expertise</h3>
+            <p class="text-gray-700"> With years of experience in civil and mechanical engineering, we deliver high-quality solutions tailored to your needs. </p>
+          </div>
+          <!-- Quality Assurance -->
+          <div class="bg-white rounded-xl shadow-lg p-6 text-center hover-popup">
+            <i class="fas fa-check-circle text-yellow-500 text-4xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Quality Assurance</h3>
+            <p class="text-gray-700"> We adhere to international standards and ensure every project meets the highest quality benchmarks. </p>
+          </div>
+          <!-- Customer-Centric Approach -->
+          <div class="bg-white rounded-xl shadow-lg p-6 text-center hover-popup">
+            <i class="fas fa-users text-yellow-500 text-4xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Customer-Centric Approach</h3>
+            <p class="text-gray-700"> Your satisfaction is our priority. We work closely with you to understand your requirements and deliver beyond expectations. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="bg-black text-light dev-footer">
+      <i>Developed by Malik Shahan MS </i>
+      <i>for more information </i>
+      <i>malikshahan191@gmail.com</i>
+      <i>PH:03005044466</i>
+    </div>
+	<script>
+	document.addEventListener("DOMContentLoaded", function () {
+  let video = document.querySelector(".video-container video");
+  if (video) {
+    video.play().catch(error => console.error("Autoplay prevented:", error));
+  }
+});
+
+	
+	</script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="scripts/script.js">
+  </body>
+</html>
